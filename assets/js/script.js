@@ -4,13 +4,13 @@ let p1 = {name:"ahmad",age:30,state:"beirut"}
 // console.log(accounts01)
 // console.log(accounts02.keys)
 // console.log(accounts02.admin03)
-// let admin = prompt("enter username")
+let admin = prompt("enter username")
 function main(){
-       if(admin in accounts02){
+    if(admin in accounts02){
         console.log(`welcome ${admin} you pass is: ${accounts02[admin]}`)
-       }else{
+    }else{
         console.log('you are not registered')
-       }
+    }
 }
 function getAge(){
     let name=prompt("enter your name")
