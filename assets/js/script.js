@@ -50,13 +50,15 @@
 // console.log(number)
 
 let person = {
-    name:"ahmad","lastname":"yassine",
+    name:"ahmad",
+    middlename:"saad",
+    "lastname":"yassine",
     age:"33",
     state:"beirut",
     greet: function(){
         console.log(`hello my name is ${person.name}`)
     }
 }
-console.log(`my name is ${person[lastname]}`)
+console.log(`my name is ${person.name} ${person['middlename']} ${person.lastname}`)
 // console.log(`my name is ${person.name} and im ${person.age} years old, living in ${person.state}`)
 // console.log(person.greet())
