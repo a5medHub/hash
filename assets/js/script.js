@@ -58,5 +58,5 @@ let person = {
     }
 }
 
-console.log(`${person.name} mohsinnnnnnnnnnnnn`)
+console.log(`my name is ${person.name} and im ${person.age} years old, living in ${person.state}`)
 console.log(person.greet())
