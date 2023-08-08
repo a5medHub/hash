@@ -48,21 +48,14 @@
 // console.log(number)
 // number.splice(1,3,20,30,40,50)
 // console.log(number)
+
 let person = {
     name:"ahmad",
     age:"33",
     state:"beirut",
     greet: function(){
-        console.log(`hello my name is ${this.name}`)
+        console.log(`hello my name is ${person.name}`)
     }
 }
-alert(`${person.name} mohsinnnnnnnnnnnnn`)
-
-
-class greet {
-    constructor(name, password) {
-        this.name = name;
-        this.password = password;
-        return `your user name is :${name}`;
-    }
-}
+console.log(`${person.name} mohsinnnnnnnnnnnnn`)
+console.log(person.greet())
