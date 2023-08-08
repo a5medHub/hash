@@ -39,12 +39,12 @@
 //     }
 // }
 
-          [0,1,2,3,4] INDEX
-let number = [1,2,3,4,5]
-console.log(number.length-1)
-let sliced = number.slice(2,4)
-console.log(number.length-1)
-console.log(sliced)
-console.log(number)
-number.splice(1,3,20,30,40,50)
-console.log(number)
+//           [0,1,2,3,4] INDEX
+// let number = [1,2,3,4,5]
+// console.log(number.length-1)
+// let sliced = number.slice(2,4)
+// console.log(number.length-1)
+// console.log(sliced)
+// console.log(number)
+// number.splice(1,3,20,30,40,50)
+// console.log(number)
