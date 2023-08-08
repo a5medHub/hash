@@ -48,3 +48,8 @@
 // console.log(number)
 // number.splice(1,3,20,30,40,50)
 // console.log(number)
+let person = {
+    name:"ahmad",
+    age:"33",
+    state:"beirut"
+}
