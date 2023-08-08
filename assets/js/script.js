@@ -56,4 +56,13 @@ let person = {
         console.log(`hello my name is ${this.name}`)
     }
 }
-alert(person.name)
+alert(`${person.name} mohsinnnnnnnnnnnnn`)
+
+
+class greet {
+    constructor(name, password) {
+        this.name = name;
+        this.password = password;
+        return `your user name is :${name}`;
+    }
+}
