@@ -57,5 +57,6 @@ let person = {
         console.log(`hello my name is ${person.name}`)
     }
 }
+
 console.log(`${person.name} mohsinnnnnnnnnnnnn`)
 console.log(person.greet())
